@@ -18,14 +18,14 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20004251.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20004251.png"
                       alt="Test"
                 ></p>
 <p>找出该内存处对应的139字节，并找到加密逻辑</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20004442.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20004442.png"
                       alt="Test"
                 ></p>
 <p>发现设置了一个固定种子并进行异或，则我们按照相同的逻辑解密</p>
@@ -35,7 +35,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20005054.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20005054.png"
                       alt="Test"
                 ></p>
 <p>发现是将uStack_10作为密钥异或栈上存储的值并与用户输入值进行比较，按照地址顺序解密可得</p>
@@ -48,7 +48,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20002815.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20002815.png"
                       alt="Test"
                 ></p>
 <p>2是改变自己的工资。3是辞职并且判断257 * (unsigned __int8)byte_4040A9 &#x3D;&#x3D; dword_404080,如果成立则输出flag。</p>
@@ -69,7 +69,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20003011.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20003011.png"
                       alt="Test"
                 ></p>
 <p>可以看到只有三条语句输出，这已经可以确定byte_4040AA的所有位，即0100 0101</p>
@@ -78,27 +78,27 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20003347.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-23%20003347.png"
                       alt="Test"
                 ></p>
 <h3 id="AngerIssues"><a href="#AngerIssues" class="headerlink" title="AngerIssues"></a>AngerIssues</h3><p>拖入ida初步查看，可以看到main函数调用了checks函数，而checks函数调用了一堆funci函数。</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20163818.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20163818.png"
                       alt="Test"
                 ></p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20163827.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20163827.png"
                       alt="Test"
                 ></p>
 <p>且每个函数都执行一些简单的比较功能</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20163108.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20163108.png"
                       alt="Test"
                 ></p>
 <p>显然不能手动分析，使用自动分析工具angr</p>
@@ -108,7 +108,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20164336.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20164336.png"
                       alt="Test"
                 ></p>
 <p>用户输入作为迷宫的操作，sub_1C48是主要验证逻辑。而sub_1ED4是后面更新后的文件加入的函数，主要作用是限制了一些步数处的操作，防止多解。</p>
@@ -116,7 +116,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20165036.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20165036.png"
                       alt="Test"
                 ></p>
 <p>我愿称之为“双面重力迷宫”。不妨假设有个小人在其中移动。</p>
@@ -132,7 +132,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/%5Cimages%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20171511.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20171511.png"
                       alt="Test"
                 ></p>
 <p>接下来正式进入路径寻找环节。</p>
@@ -141,7 +141,7 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20171920.png"
+                     data-src="/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-03-25%20171920.png"
                       alt="Test"
                 ></p>
 <p>发现每走4步sub_1C48会调用一次该函数对目前的坐标进行验证，可以看作“存档点”。一共有8个（最后一个是终点）</p>
