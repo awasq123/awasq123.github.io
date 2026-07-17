@@ -293,12 +293,17 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>CryptoCTF2025</title>
     <url>/2026/07/17/CryptoCTF2025/</url>
-    <content><![CDATA[<div class="code-container" data-rel="Yaml"><figure class="iseeu highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">CryptoCTF2025</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2026-7</span><span class="number">-17</span> <span class="number">16</span><span class="string">:30:00</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">&quot;crypto&quot;</span>,<span class="string">&quot;ctf&quot;</span>]</span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">true</span> </span><br></pre></td></tr></table></figure></div>
-
-<p>心血来潮做一下CryptoCTF2025</p>
+    <content><![CDATA[<p>心血来潮做一下CryptoCTF2025</p>
+<h3 id="Welcome"><a href="#Welcome" class="headerlink" title="Welcome!"></a>Welcome!</h3><p>We just learned <strong>Base64</strong>, so we hid half the flag with it. Decoding is optional… if you like flags!</p>
+<p><code>CCTF{w3lc0m3_T0_7h3_m4dh0u5e_aDR2M180X1M0bjE3eV81QW5kdzFjaCF9</code></p>
+<p>base64解码即可</p>
 ]]></content>
+      <tags>
+        <tag>ctf</tag>
+        <tag>crypto</tag>
+      </tags>
   </entry>
   <entry>
     <title>Crypto 总结 (2)</title>
